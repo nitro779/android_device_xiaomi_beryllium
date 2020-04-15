@@ -13,7 +13,7 @@ $(call inherit-product, vendor/revengeos/config/gsm.mk)
 TARGET_BOOT_ANIMATION_RES := 2280
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_beryllium
+PRODUCT_NAME := revengeos_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1

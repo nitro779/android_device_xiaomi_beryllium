@@ -8,9 +8,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common revenge stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
-$(call inherit-product, vendor/revengeos/config/gsm.mk)
 
-TARGET_BOOT_ANIMATION_RES := 2280
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_beryllium
